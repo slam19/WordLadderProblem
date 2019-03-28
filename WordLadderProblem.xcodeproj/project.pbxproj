@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822B5D8D224D25D300F40964 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5D8C224D25D300F40964 /* AppDelegate.m */; };
+		822B5D90224D25D300F40964 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5D8F224D25D300F40964 /* ViewController.m */; };
+		822B5D92224D25D500F40964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822B5D91224D25D500F40964 /* Assets.xcassets */; };
+		822B5D95224D25D500F40964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822B5D93224D25D500F40964 /* Main.storyboard */; };
+		822B5D98224D25D500F40964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5D97224D25D500F40964 /* main.m */; };
+		822B5DA3224D25D600F40964 /* WordLadderProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DA2224D25D600F40964 /* WordLadderProblemTests.m */; };
+		822B5DAE224D25D600F40964 /* WordLadderProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DAD224D25D600F40964 /* WordLadderProblemUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		822B5D9F224D25D600F40964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822B5D80224D25D200F40964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822B5D87224D25D200F40964;
+			remoteInfo = WordLadderProblem;
+		};
+		822B5DAA224D25D600F40964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 822B5D80224D25D200F40964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822B5D87224D25D200F40964;
+			remoteInfo = WordLadderProblem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		822B5D88224D25D300F40964 /* WordLadderProblem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordLadderProblem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822B5D8B224D25D300F40964 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		822B5D8C224D25D300F40964 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		822B5D8E224D25D300F40964 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		822B5D8F224D25D300F40964 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		822B5D91224D25D500F40964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		822B5D94224D25D500F40964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		822B5D96224D25D500F40964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822B5D97224D25D500F40964 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		822B5D99224D25D500F40964 /* WordLadderProblem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordLadderProblem.entitlements; sourceTree = "<group>"; };
+		822B5D9E224D25D600F40964 /* WordLadderProblemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordLadderProblemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822B5DA2224D25D600F40964 /* WordLadderProblemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLadderProblemTests.m; sourceTree = "<group>"; };
+		822B5DA4224D25D600F40964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822B5DA9224D25D600F40964 /* WordLadderProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordLadderProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		822B5DAD224D25D600F40964 /* WordLadderProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLadderProblemUITests.m; sourceTree = "<group>"; };
+		822B5DAF224D25D600F40964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822B5D85224D25D200F40964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5D9B224D25D600F40964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5DA6224D25D600F40964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822B5D7F224D25D200F40964 = {
+			isa = PBXGroup;
+			children = (
+				822B5D8A224D25D300F40964 /* WordLadderProblem */,
+				822B5DA1224D25D600F40964 /* WordLadderProblemTests */,
+				822B5DAC224D25D600F40964 /* WordLadderProblemUITests */,
+				822B5D89224D25D300F40964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822B5D89224D25D300F40964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822B5D88224D25D300F40964 /* WordLadderProblem.app */,
+				822B5D9E224D25D600F40964 /* WordLadderProblemTests.xctest */,
+				822B5DA9224D25D600F40964 /* WordLadderProblemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822B5D8A224D25D300F40964 /* WordLadderProblem */ = {
+			isa = PBXGroup;
+			children = (
+				822B5D8B224D25D300F40964 /* AppDelegate.h */,
+				822B5D8C224D25D300F40964 /* AppDelegate.m */,
+				822B5D8E224D25D300F40964 /* ViewController.h */,
+				822B5D8F224D25D300F40964 /* ViewController.m */,
+				822B5D91224D25D500F40964 /* Assets.xcassets */,
+				822B5D93224D25D500F40964 /* Main.storyboard */,
+				822B5D96224D25D500F40964 /* Info.plist */,
+				822B5D97224D25D500F40964 /* main.m */,
+				822B5D99224D25D500F40964 /* WordLadderProblem.entitlements */,
+			);
+			path = WordLadderProblem;
+			sourceTree = "<group>";
+		};
+		822B5DA1224D25D600F40964 /* WordLadderProblemTests */ = {
+			isa = PBXGroup;
+			children = (
+				822B5DA2224D25D600F40964 /* WordLadderProblemTests.m */,
+				822B5DA4224D25D600F40964 /* Info.plist */,
+			);
+			path = WordLadderProblemTests;
+			sourceTree = "<group>";
+		};
+		822B5DAC224D25D600F40964 /* WordLadderProblemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				822B5DAD224D25D600F40964 /* WordLadderProblemUITests.m */,
+				822B5DAF224D25D600F40964 /* Info.plist */,
+			);
+			path = WordLadderProblemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822B5D87224D25D200F40964 /* WordLadderProblem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822B5DB2224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblem" */;
+			buildPhases = (
+				822B5D84224D25D200F40964 /* Sources */,
+				822B5D85224D25D200F40964 /* Frameworks */,
+				822B5D86224D25D200F40964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordLadderProblem;
+			productName = WordLadderProblem;
+			productReference = 822B5D88224D25D300F40964 /* WordLadderProblem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		822B5D9D224D25D600F40964 /* WordLadderProblemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822B5DB5224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblemTests" */;
+			buildPhases = (
+				822B5D9A224D25D600F40964 /* Sources */,
+				822B5D9B224D25D600F40964 /* Frameworks */,
+				822B5D9C224D25D600F40964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822B5DA0224D25D600F40964 /* PBXTargetDependency */,
+			);
+			name = WordLadderProblemTests;
+			productName = WordLadderProblemTests;
+			productReference = 822B5D9E224D25D600F40964 /* WordLadderProblemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		822B5DA8224D25D600F40964 /* WordLadderProblemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822B5DB8224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblemUITests" */;
+			buildPhases = (
+				822B5DA5224D25D600F40964 /* Sources */,
+				822B5DA6224D25D600F40964 /* Frameworks */,
+				822B5DA7224D25D600F40964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822B5DAB224D25D600F40964 /* PBXTargetDependency */,
+			);
+			name = WordLadderProblemUITests;
+			productName = WordLadderProblemUITests;
+			productReference = 822B5DA9224D25D600F40964 /* WordLadderProblemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822B5D80224D25D200F40964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Simon Lam";
+				TargetAttributes = {
+					822B5D87224D25D200F40964 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					822B5D9D224D25D600F40964 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 822B5D87224D25D200F40964;
+					};
+					822B5DA8224D25D600F40964 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 822B5D87224D25D200F40964;
+					};
+				};
+			};
+			buildConfigurationList = 822B5D83224D25D200F40964 /* Build configuration list for PBXProject "WordLadderProblem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 822B5D7F224D25D200F40964;
+			productRefGroup = 822B5D89224D25D300F40964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822B5D87224D25D200F40964 /* WordLadderProblem */,
+				822B5D9D224D25D600F40964 /* WordLadderProblemTests */,
+				822B5DA8224D25D600F40964 /* WordLadderProblemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822B5D86224D25D200F40964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822B5D92224D25D500F40964 /* Assets.xcassets in Resources */,
+				822B5D95224D25D500F40964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5D9C224D25D600F40964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5DA7224D25D600F40964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822B5D84224D25D200F40964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822B5D90224D25D300F40964 /* ViewController.m in Sources */,
+				822B5D98224D25D500F40964 /* main.m in Sources */,
+				822B5D8D224D25D300F40964 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5D9A224D25D600F40964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822B5DA3224D25D600F40964 /* WordLadderProblemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822B5DA5224D25D600F40964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822B5DAE224D25D600F40964 /* WordLadderProblemUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		822B5DA0224D25D600F40964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822B5D87224D25D200F40964 /* WordLadderProblem */;
+			targetProxy = 822B5D9F224D25D600F40964 /* PBXContainerItemProxy */;
+		};
+		822B5DAB224D25D600F40964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822B5D87224D25D200F40964 /* WordLadderProblem */;
+			targetProxy = 822B5DAA224D25D600F40964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		822B5D93224D25D500F40964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822B5D94224D25D500F40964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822B5DB0224D25D600F40964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		822B5DB1224D25D600F40964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		822B5DB3224D25D600F40964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordLadderProblem/WordLadderProblem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		822B5DB4224D25D600F40964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WordLadderProblem/WordLadderProblem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		822B5DB6224D25D600F40964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordLadderProblem.app/Contents/MacOS/WordLadderProblem";
+			};
+			name = Debug;
+		};
+		822B5DB7224D25D600F40964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblemTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordLadderProblem.app/Contents/MacOS/WordLadderProblem";
+			};
+			name = Release;
+		};
+		822B5DB9224D25D600F40964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordLadderProblem;
+			};
+			name = Debug;
+		};
+		822B5DBA224D25D600F40964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WordLadderProblemUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deerfield.WordLadderProblemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WordLadderProblem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822B5D83224D25D200F40964 /* Build configuration list for PBXProject "WordLadderProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822B5DB0224D25D600F40964 /* Debug */,
+				822B5DB1224D25D600F40964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822B5DB2224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822B5DB3224D25D600F40964 /* Debug */,
+				822B5DB4224D25D600F40964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822B5DB5224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822B5DB6224D25D600F40964 /* Debug */,
+				822B5DB7224D25D600F40964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822B5DB8224D25D600F40964 /* Build configuration list for PBXNativeTarget "WordLadderProblemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822B5DB9224D25D600F40964 /* Debug */,
+				822B5DBA224D25D600F40964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822B5D80224D25D200F40964 /* Project object */;
+}
