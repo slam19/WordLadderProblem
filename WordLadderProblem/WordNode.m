@@ -7,3 +7,33 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WordNode.h"
+
+@implementation WordNode
+
+-(id) init{
+    self = [super init];
+    if (self){
+        self.word = nil;
+        self.color = 0;
+        self.oneStepList=nil;
+    }
+    return self;
+}
+
+-(id) initWithWord: (NSString *) str{
+    self = [super init];
+    if (self){
+        self.word = str;
+        self.color=0;
+        self.oneStepList = [[NSMutableArray alloc]init];
+    }
+    return self;
+}
+
+
+-(void) addIndex:(int) i{
+    [self.oneStepList addObject:[[NSNumber alloc]initWithInt:i]];
+}
+     
+@end
