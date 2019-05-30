@@ -15,8 +15,8 @@
 @property Node<ObjectType> *head;
 @property Node<ObjectType> *tail;
 
--(void) enqueue: (ObjectType) value;
--(ObjectType) dequeue;
+-(void) enqueue: (int) value withPrevious:(Node *)n;
+-(Node*) dequeue;
 -(bool) isEmpty;
 
 @end

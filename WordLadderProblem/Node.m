@@ -13,24 +13,24 @@
 -(id) init{
     self = [super init];
     if (self){
-        self.item = nil;
+        self.index = -1;
         self.next = nil;
+        self.previous = nil;
     }
     return self;
 }
 
--(id) initWithItem: (Box *) i{
+-(id) initWithIndex: (int) i{
     self = [super init];
     if (self){
-        self.item = i;
+        self.index = i;
         self.next = nil;
+        self.previous = nil;
     }
     return self;
 }
 
 
-- (NSString *)itemName {
-    return [NSString stringWithFormat: @"%@", self.item];
-}
+
 
 @end

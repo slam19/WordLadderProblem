@@ -12,23 +12,27 @@
 @implementation Queue: NSObject {
     
 }
--(void) enqueue: (id) value {
-    Node *n = [[Node alloc] initWithItem: value];
+-(void) enqueue: (int) value withPrevious: (Node *)p{
+    Node *n = [[Node alloc] initWithIndex: value];
     if (!self.head) {
         self.head = n;
         self.tail = n;
+        n.previous = p;
+        n.next = nil;
     } else {
         self.tail.next = n;
-        n.previous = n;
+        n.previous = p;
         self.tail = n;
     }
 }
 
--(id) dequeue {
+-(Node*) dequeue {
     Node *head = self.head;
     self.head = self.head.next;
-    self.head.previous = nil;
-    return head.item;
+    if(!self.head){
+        self.tail=nil;
+    }
+    return head;
 }
 
 -(bool) isEmpty {

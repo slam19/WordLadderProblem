@@ -14,6 +14,11 @@
 		822B5D98224D25D500F40964 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5D97224D25D500F40964 /* main.m */; };
 		822B5DA3224D25D600F40964 /* WordLadderProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DA2224D25D600F40964 /* WordLadderProblemTests.m */; };
 		822B5DAE224D25D600F40964 /* WordLadderProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DAD224D25D600F40964 /* WordLadderProblemUITests.m */; };
+		822B5DBC224D261000F40964 /* FourLetterDictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 822B5DBB224D261000F40964 /* FourLetterDictionary.txt */; };
+		822B5DBE224D264A00F40964 /* WordLetterGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DBD224D264A00F40964 /* WordLetterGraph.m */; };
+		822B5DC22252945B00F40964 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DC02252945A00F40964 /* Queue.m */; };
+		822B5DC52252946300F40964 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DC32252946300F40964 /* Node.m */; };
+		822B5DC82253E59900F40964 /* WordNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 822B5DC72253E59900F40964 /* WordNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,15 @@
 		822B5DA9224D25D600F40964 /* WordLadderProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordLadderProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		822B5DAD224D25D600F40964 /* WordLadderProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLadderProblemUITests.m; sourceTree = "<group>"; };
 		822B5DAF224D25D600F40964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822B5DBB224D261000F40964 /* FourLetterDictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FourLetterDictionary.txt; sourceTree = "<group>"; };
+		822B5DBD224D264A00F40964 /* WordLetterGraph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordLetterGraph.m; sourceTree = "<group>"; };
+		822B5DBF224D265D00F40964 /* WordLetterGraph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordLetterGraph.h; sourceTree = "<group>"; };
+		822B5DC02252945A00F40964 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		822B5DC12252945B00F40964 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		822B5DC32252946300F40964 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		822B5DC42252946300F40964 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		822B5DC62253E58D00F40964 /* WordNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordNode.h; sourceTree = "<group>"; };
+		822B5DC72253E59900F40964 /* WordNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,15 @@
 			children = (
 				822B5D8B224D25D300F40964 /* AppDelegate.h */,
 				822B5D8C224D25D300F40964 /* AppDelegate.m */,
+				822B5DBB224D261000F40964 /* FourLetterDictionary.txt */,
+				822B5DBD224D264A00F40964 /* WordLetterGraph.m */,
+				822B5DBF224D265D00F40964 /* WordLetterGraph.h */,
+				822B5DC12252945B00F40964 /* Queue.h */,
+				822B5DC02252945A00F40964 /* Queue.m */,
+				822B5DC42252946300F40964 /* Node.h */,
+				822B5DC32252946300F40964 /* Node.m */,
+				822B5DC72253E59900F40964 /* WordNode.m */,
+				822B5DC62253E58D00F40964 /* WordNode.h */,
 				822B5D8E224D25D300F40964 /* ViewController.h */,
 				822B5D8F224D25D300F40964 /* ViewController.m */,
 				822B5D91224D25D500F40964 /* Assets.xcassets */,
@@ -236,6 +259,7 @@
 			files = (
 				822B5D92224D25D500F40964 /* Assets.xcassets in Resources */,
 				822B5D95224D25D500F40964 /* Main.storyboard in Resources */,
+				822B5DBC224D261000F40964 /* FourLetterDictionary.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822B5DC22252945B00F40964 /* Queue.m in Sources */,
+				822B5DC82253E59900F40964 /* WordNode.m in Sources */,
 				822B5D90224D25D300F40964 /* ViewController.m in Sources */,
 				822B5D98224D25D500F40964 /* main.m in Sources */,
+				822B5DBE224D264A00F40964 /* WordLetterGraph.m in Sources */,
 				822B5D8D224D25D300F40964 /* AppDelegate.m in Sources */,
+				822B5DC52252946300F40964 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

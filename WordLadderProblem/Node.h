@@ -8,14 +8,13 @@
 
 #ifndef Node_h
 #define Node_h
-#import "Box.h"
+#import <Foundation/Foundation.h>
 @interface Node<ObjectType>: NSObject
 
-@property Box *item;
+@property int index;
 @property Node *next;
 @property Node *previous;
 
--(NSString *) itemName;
--(id) initWithItem: (Box *) f;
+-(id) initWithIndex: (int) i;
 @end
 #endif /* Node_h */
